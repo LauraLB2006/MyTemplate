@@ -1,0 +1,63 @@
+---
+title: "Title"
+author: "Laura Bernett"
+date: '(`r format(Sys.time(), "%B %d, %Y")`)'
+output:
+github_document: default
+html_notebook: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+This notebook...
+
+## Dependencies
+This notebook requires...
+
+```{r load-packages}
+# tidyverse packages
+
+library (dplyr)         # data wrangling
+library (ggplot2)       # create graphics
+library (readr)         # csv tools
+library (stringr)       # work with strings
+library (tibble)        # data frame tools
+library (tidyr)         # tidy data
+
+
+#spatial packages
+
+library(areal)          # areal interpolation tool
+library(leaflet)        # interactive maps
+library(mapview)        # mapping tool
+library(sf)             # spatial data tools
+library(tigris)         # data wrangling
+
+# other packages
+
+library (here)          # file path tools
+library (janitor)       # data cleaning
+library (knitr)         # knit skript together
+library (usethis)       # workflow
+
+```
+
+## Load Data
+This notebook requires...
+
+```{r load-data}
+
+```
+
+## Part 1
+
+A description of what your code should accomplish.
+
+```{r p1}
+
+```
+
+A description of the results.
